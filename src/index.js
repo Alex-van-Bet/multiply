@@ -1,3 +1,5 @@
 module.exports = function multiply(first, second) {
-  // your solution
+  let composition = 0;
+  composition = BigInt(first) * BigInt(second);
+  return(composition.toString());
 }
